@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>[CODOCU] Dokumentationsanzeige Container</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>KDV</KEY>
+     <ENTRY>Kein Dokumentation vorhanden</ENTRY>
+     <LENGTH>80</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>CONVERT_HTML</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>HTML &quot;aufhübschen&quot;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>CREATE_DISPLAY_AREA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Container erzeugen, wenn er nicht übergeben wurde</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>CREATE_INFORMATION_NO_DOCU</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Informationen erzeugen, dass keine Doku gefunden wurde</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Dokumentation im Container anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>GR_CONTAINER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abstracter Container fuer GUI Controls</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>GR_DISPLAY_HTML</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>HTML Control proxy class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>GR_ME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>[CODOCU] Dokumentationsanzeige Container</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>GS_DOCU_HEADER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SAPscript: Text-Header</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>GT_CONV_CHARFORMATS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liste von Sapscript Zeilen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>GT_CONV_PARFORMATS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liste von Sapscript Zeilen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>GT_DOCU_LINES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liste von Sapscript Zeilen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>GV_DYNNR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktuelle Dynpro-Nummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>GV_REPID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ABAP-Programm, aktuelles Rahmenprogramm</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>SET_DOCU_SAPSCRIPT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SAP-Skript-Dokumentation lesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>SHOW_DOCU</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Dokumentation in Container anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
