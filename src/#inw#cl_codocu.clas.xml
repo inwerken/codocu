@@ -4,8 +4,8 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
-    <LANGU>D</LANGU>
-    <DESCRIPT>[CODOCU] Dokumentationsanzeige Container</DESCRIPT>
+    <LANGU>E</LANGU>
+    <DESCRIPT>[CODOCU] Documentation display in container</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
@@ -19,11 +19,30 @@
      <LENGTH>80</LENGTH>
     </item>
    </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KDV</KEY>
+       <ENTRY>Documentation does not exist</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
    <DESCRIPTIONS>
     <SEOCOMPOTX>
      <CLSNAME>/INW/CL_CODOCU</CLSNAME>
      <CMPNAME>CONSTRUCTOR</CMPNAME>
      <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
      <DESCRIPT>CONSTRUCTOR</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
@@ -34,9 +53,21 @@
     </SEOCOMPOTX>
     <SEOCOMPOTX>
      <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>CONVERT_HTML</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>beautify HTML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
      <CMPNAME>CREATE_DISPLAY_AREA</CMPNAME>
      <LANGU>D</LANGU>
      <DESCRIPT>Container erzeugen, wenn er nicht übergeben wurde</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>CREATE_DISPLAY_AREA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create Container if not supplied</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
      <CLSNAME>/INW/CL_CODOCU</CLSNAME>
@@ -46,63 +77,21 @@
     </SEOCOMPOTX>
     <SEOCOMPOTX>
      <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>CREATE_INFORMATION_NO_DOCU</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create information that documentation was not found</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
      <CMPNAME>DISPLAY</CMPNAME>
      <LANGU>D</LANGU>
      <DESCRIPT>Dokumentation im Container anzeigen</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
      <CLSNAME>/INW/CL_CODOCU</CLSNAME>
-     <CMPNAME>GR_CONTAINER</CMPNAME>
-     <LANGU>D</LANGU>
-     <DESCRIPT>Abstracter Container fuer GUI Controls</DESCRIPT>
-    </SEOCOMPOTX>
-    <SEOCOMPOTX>
-     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
-     <CMPNAME>GR_DISPLAY_HTML</CMPNAME>
-     <LANGU>D</LANGU>
-     <DESCRIPT>HTML Control proxy class</DESCRIPT>
-    </SEOCOMPOTX>
-    <SEOCOMPOTX>
-     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
-     <CMPNAME>GR_ME</CMPNAME>
-     <LANGU>D</LANGU>
-     <DESCRIPT>[CODOCU] Dokumentationsanzeige Container</DESCRIPT>
-    </SEOCOMPOTX>
-    <SEOCOMPOTX>
-     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
-     <CMPNAME>GS_DOCU_HEADER</CMPNAME>
-     <LANGU>D</LANGU>
-     <DESCRIPT>SAPscript: Text-Header</DESCRIPT>
-    </SEOCOMPOTX>
-    <SEOCOMPOTX>
-     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
-     <CMPNAME>GT_CONV_CHARFORMATS</CMPNAME>
-     <LANGU>D</LANGU>
-     <DESCRIPT>Liste von Sapscript Zeilen</DESCRIPT>
-    </SEOCOMPOTX>
-    <SEOCOMPOTX>
-     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
-     <CMPNAME>GT_CONV_PARFORMATS</CMPNAME>
-     <LANGU>D</LANGU>
-     <DESCRIPT>Liste von Sapscript Zeilen</DESCRIPT>
-    </SEOCOMPOTX>
-    <SEOCOMPOTX>
-     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
-     <CMPNAME>GT_DOCU_LINES</CMPNAME>
-     <LANGU>D</LANGU>
-     <DESCRIPT>Liste von Sapscript Zeilen</DESCRIPT>
-    </SEOCOMPOTX>
-    <SEOCOMPOTX>
-     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
-     <CMPNAME>GV_DYNNR</CMPNAME>
-     <LANGU>D</LANGU>
-     <DESCRIPT>Aktuelle Dynpro-Nummer</DESCRIPT>
-    </SEOCOMPOTX>
-    <SEOCOMPOTX>
-     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
-     <CMPNAME>GV_REPID</CMPNAME>
-     <LANGU>D</LANGU>
-     <DESCRIPT>ABAP-Programm, aktuelles Rahmenprogramm</DESCRIPT>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display documentation in container</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
      <CLSNAME>/INW/CL_CODOCU</CLSNAME>
@@ -112,9 +101,21 @@
     </SEOCOMPOTX>
     <SEOCOMPOTX>
      <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>SET_DOCU_SAPSCRIPT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read SAP-Script documentation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
      <CMPNAME>SHOW_DOCU</CMPNAME>
      <LANGU>D</LANGU>
      <DESCRIPT>Dokumentation in Container anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>/INW/CL_CODOCU</CLSNAME>
+     <CMPNAME>SHOW_DOCU</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display documentation in container</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>
   </asx:values>
